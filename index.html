@@ -370,6 +370,33 @@ communities. <img src="Sensor_locations.jpg" /></p>
 </div>
 <div id="methods" class="section level2">
 <h2>Methods</h2>
+<p>Raw PM2.5 measurements from the 11 sensors were downloaded by WE ACT
+from the PurpleAir API over the course of the study period from October
+31st, 2023 to March 12th, 2025. Each sensor consists of dual-laser
+particle counters (PMS-5003), named Channels A &amp; B, that separately
+measure PM2.5 and can be compared to ensure precision of the
+measurements. To account for limitations in the PurpleAir sensor
+technology, a correction factor according to the most current research
+was applied to the raw measurements (Wallace et al., 2022). Data were
+averaged into hourly means to standardize for non-uniform collection
+intervals and cleaned according to the criteria featured in Figure 2 to
+remove potentially invalid data and allow for robust data analysis. All
+validation and cleaning measures were applied in R. R and the RStudio
+IDE were used to visualize trends in the dataset. Time-series, diurnal,
+and seasonal patterns were assessed visually through various plots and
+interpreted for statistical significance. PM2.5 data were
+log-transformed prior to running statistical analyses to account for
+skewness in the data distribution.</p>
+<ul>
+<li><p>Air Quality Indices (AQI) for PM2.5 concentrations were
+calculated using the con2aqi R package.</p></li>
+<li><p>Interrupted Time Series (ITS) and Causal Impact analyses using
+the Bayesian CausalImpact R package evaluated congestion pricing
+effects.</p></li>
+<li><p>Data were compared with NYCCAS and EPA datasets from the same
+time frame for validation and further interpretation of congestion
+pricing data.</p></li>
+</ul>
 </div>
 
 
