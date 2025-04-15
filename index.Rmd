@@ -1,0 +1,23 @@
+---
+title: "Air Quality in Northern Manhattan"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+We analyzed data from WE ACT's Community Air Monitoring Project (CAMP) to identify discrepancies in air quality across Manhattan, and to evaluate the short-run effects of the congestion pricing policy, implemented in 2025. 
+
+![](image1.jpeg)
+
+
+
+## Background
+
+Northern Manhattan, home to neighborhoods like Harlem and Washington Heights, has long faced disproportionately high levels of air pollution due to its proximity to highways, industrial facilities, and bus depots. Elevated ambient concentrations of harmful pollutants like PM2.5 have contributed to significant public health disparities in the region . Despite these risks, most government-funded regulatory PM2.5 air quality monitors are located outside of Northern Manhattan, in wealthier areas like the Lower East Side and Dumbo, leaving critical data gaps in some of the city's most vulnerable communities. 
+To help fill this data gap, WE ACT for Environmental Justice launched the Community Air Monitoring Project (CAMP) in 2023, installing low-cost PurpleAir-II sensors at community members’ homes to track PM2.5 levels in real time. With congestion pricing being  implemented in NYC, this data is especially critical for evaluating the impact of shifting traffic patterns on air pollution in the already overburdened communities of Northern Manhattan.
+This project analyzes CAMP data to identify temporal trends in PM2.5 concentrations across the study period in addition to the preliminary impacts of congestion pricing on air quality in Northern Manhattan communities.
+![](Sensor_locations.jpg)
+
+
+## Methods 

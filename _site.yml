@@ -1,0 +1,12 @@
+name: "my-website"
+output_dir: "."
+navbar:
+  title: "EHS Capstone"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "About Us"
+      href: about.html
+output:
+  html_document:
+    theme: journal
