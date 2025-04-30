@@ -5,8 +5,8 @@ navbar:
   left:
     - text: "Home"
       href: index.html
-    - text: "About Us"
-      href: about.html
+    - text: "AQI Dashboard"
+      href: https://lrb4fm-mugdha-kinjawadekar.shinyapps.io/dashboard/
 output:
   html_document:
     theme: journal

@@ -48,9 +48,6 @@ Compared to the reference month of January, PM2.5 levels were significantly high
 Weekdays have statistically significantly higher levels of PM2.5 than weekends between the hours of 7-11am, peaking at 9am (p < 0.0001), and from 4-5pm (p < 0.0197). Weekends have statistically significantly higher levels of PM2.5 from 10pm-1am, peaking at midnight (p=0.0020)
 
 
-
-
-
 ###  Congestion Policy Analysis {.tabset}
 <br>
 Results of an independent t-test showed a statistically significant reduction between PM2.5  levels in the first two months of 2024 and the first two months of 2025 (t = -33.12, df = 16,125, p < 2.2e-16), with mean log PM2.5 values decreasing from 2.0139 (2024) to 1.8034 (2025). The 95% confidence interval (-0.223, -0.198) confirms a real difference, indicating that PM2.5 levels significantly dropped post-policy. The sites in the Central Business District (CBD) were selected based on highest traffic volume while CAMP sensors were selected based on data availability.
