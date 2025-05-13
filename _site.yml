@@ -5,7 +5,7 @@ navbar:
   left:
     - text: "Home"
       href: index.html
-    - text: "AQI Dashboard"
+    - text: "PM2.5 Dashboard"
       href: https://lrb4fm-mugdha-kinjawadekar.shinyapps.io/dashboard/
 output:
   html_document:
