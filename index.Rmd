@@ -4,6 +4,7 @@ output:
   html_document:
     toc: true
     toc_float: true
+    css: styles.css
 ---
 
 We analyzed data from WE ACT's Community Air Monitoring Project (CAMP) to identify discrepancies in air quality across Manhattan, and to evaluate the short-run effects of the congestion pricing policy, implemented in 2025. 
@@ -37,13 +38,13 @@ R and the RStudio IDE were used to visualize trends in the dataset. Time-series,
 
 ### Seasonal Trends
 
-![](seasonal.png){width=60%}
+![](seasonal.png){width=80%}{height=80%} 
 <br>
 Compared to the reference month of January, PM2.5 levels were significantly higher in June (β = 0.40, p = 0.011), July (β = 0.73, p < 0.001), and August (β = 0.57, p < 0.001).
 
 ### Diurnal Trends
 
-![](diurnal.png){width=60%}
+![](diurnal.png){width=90%}
 <br>
 Weekdays have statistically significantly higher levels of PM2.5 than weekends between the hours of 7-11am, peaking at 9am (p < 0.0001), and from 4-5pm (p < 0.0197). Weekends have statistically significantly higher levels of PM2.5 from 10pm-1am, peaking at midnight (p=0.0020)
 
@@ -53,16 +54,20 @@ Weekdays have statistically significantly higher levels of PM2.5 than weekends b
 Results of an independent t-test showed a statistically significant reduction between PM2.5  levels in the first two months of 2024 and the first two months of 2025 (t = -33.12, df = 16,125, p < 2.2e-16), with mean log PM2.5 values decreasing from 2.0139 (2024) to 1.8034 (2025). The 95% confidence interval (-0.223, -0.198) confirms a real difference, indicating that PM2.5 levels significantly dropped post-policy. The sites in the Central Business District (CBD) were selected based on highest traffic volume while CAMP sensors were selected based on data availability.
 
 #### NYCCAS Data 
-![](cong1.png){width=60%}
+![](cong1.png){width=90%}
 
 #### CAMP Data 
-![](cong2.png){width=60%}
+![](cong2.png){width=90%}
 <br>
 <br>
 
 ## Implications 
 <br>
 The impact of congestion pricing extended beyond the Central Business District (CBD), with significant PM2.5 reductions across the city. This finding mitigates early concerns about traffic being diverted to outer boroughs. Instead, disparities emerge in the amount of air quality improvement received. PurpleAir data revealed smaller effect sizes in Northern Manhattan compared to citywide NYCCAS monitors, suggesting that local pollution sources may dilute policy benefits.  Additionally, uneven monitor distribution across the city may contribute to data variability. Comparisons with NYCCAS and EPA monitors revealed that regulatory sensors may underestimate exposure in underserved neighborhoods due to sparse coverage. Our hyper-local data provided a more nuanced view, reinforcing the importance of community-based monitoring. While initial congestion pricing impact appears promising, longer-term tracking is essential to achieve equity of air quality improvements.
+<br>
+
+![](findings.png)
+
 
 ## Recommendations 
 1. Strengthen data collection through citizen science by enabling NYC residents and communities to collect high-frequency, hyper-local and robust data. This will help to fill data gaps in environmental justice (EJ) communities where there is a lack of regulatory air quality monitors.
